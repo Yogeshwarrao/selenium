@@ -58,7 +58,7 @@ public class Feature {
 		//Closing the image 
 		driver.findElement(By.xpath("/html/body/div[7]/div/div[1]/button[1]")).click();
 		
-		//closing browser
+		//closing browse
 		driver.close();
 	}
 
