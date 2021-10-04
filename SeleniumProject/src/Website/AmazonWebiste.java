@@ -27,7 +27,8 @@ public class AmazonWebiste {
 				driver.findElement(By.linkText("Add to Wish List")).click();
 				driver.navigate().back();
 				Thread.sleep(1000);
-				
+				driver.close();
+
 				
 	}
 }
