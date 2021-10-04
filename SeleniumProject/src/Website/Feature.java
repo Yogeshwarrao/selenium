@@ -13,6 +13,7 @@ import org.openqa.selenium.support.ui.Select;
 public class Feature {
 
 	public static void main(String[] args) throws InterruptedException, AWTException {
+		//Enter webdriver location exe file
 		System.setProperty("webdriver.chrome.driver","C:\\Users\\91905\\Downloads\\chromedriver_win93\\Chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.wikipedia.org/");
@@ -58,7 +59,7 @@ public class Feature {
 		//Closing the image 
 		driver.findElement(By.xpath("/html/body/div[7]/div/div[1]/button[1]")).click();
 		
-		//closing browse
+		//closing browser
 		driver.close();
 	}
 
