@@ -13,7 +13,7 @@ import org.openqa.selenium.support.ui.Select;
 public class Feature {
 
 	public static void main(String[] args) throws InterruptedException, AWTException {
-		//Enter webdriver location exefile
+		//Enter webdriver location exe file
 		System.setProperty("webdriver.chrome.driver","C:\\Users\\91905\\Downloads\\chromedriver_win93\\Chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.wikipedia.org/");
